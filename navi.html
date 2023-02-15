@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        .navbar{
+            background-color: rgba(0, 0, 0, 0.863);
+            border-radius: 30px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float:left;
+            /* on floating it overflows from parent hence background color not visible hence overflow used above*/
+            list-style: none;
+            margin: 13px 20px;
+            
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+        .navbar li a:hover{
+            color: rgb(107, 104, 104);
+        }
+        .search{
+            float:right;
+            color: white;
+            padding: 12px 75px;
+        }
+        .navbar input{
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px ;
+            width: 129 px;
+        }
+        ul#menu{
+            /* margin-top: 0;
+            float: right; */
+            position: absolute;
+            top: 0px;
+            right: 10px;
+            /* left: 200px; */
+            background-color: rgb(15, 15, 15);
+            border-radius: 30px;
+            /* color: black; */
+            
+        }
+        .me li:hover {
+            color: rgb(13, 159, 243);
+            transform: scale(1.2);
+            text-shadow: 0in;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        
+            <div style="text-align: justify;">
+                <img src="IIC2.png" alt="iictmsl" width="450px" height="60px">
+            </div>
+        <nav class="navbar">
+            <ul class="me" id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="search this website">
+                </div>          
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

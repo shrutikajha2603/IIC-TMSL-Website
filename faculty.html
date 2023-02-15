@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty</title>
+    <link rel="stylesheet" href="css/faculty.css">
+
+
+
+
+    <style>
+        body {
+            background-image: url('fac.jpeg');
+            background-repeat: no-repeat;
+            background-blend-mode: lighten;
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden;
+
+        }
+
+        /* .row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            ;
+        } */
+
+
+        .column {
+            padding-right: 25px;
+        }
+
+        .row {
+            display: flex;
+            padding-bottom: 5px;
+
+        }
+
+        .xyz {
+            /* width: 75%;
+            justify-content: center;
+            display: flex; */
+            padding-left: 350px;
+        }
+
+        .text {
+            font-size: 20px;
+            /* padding-left: 20px; */
+        }
+
+        .footer {
+            position: relative;
+            width: auto;
+            background: hsl(192, 100%, 44.3%);
+            min-height: 100px;
+            padding: 20px;
+            flex-direction: column;
+            margin-top: 4rem;
+            background-repeat: no-repeat;
+
+        }
+
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.863);
+            border-radius: 30px;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            /* on floating it overflows from parent hence background color not visible hence overflow used above*/
+            list-style: none;
+            margin: 13px 20px;
+
+        }
+
+        .navbar li a {
+            /* padding: 3px 3px; */
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar li a:hover {
+            color: rgb(107, 104, 104);
+        }
+
+        .search {
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+
+        .navbar input {
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129 px;
+        }
+
+        ul#menu {
+            /* margin-top: 0;
+            float: right; */
+            position: absolute;
+            top: 0px;
+            right: 10px;
+            /* left: 200px; */
+            background-color: rgb(15, 15, 15);
+            border-radius: 30px;
+            /* color: black; */
+            margin-top: 10px;
+
+        }
+
+        .me li:hover {
+            color: rgb(13, 159, 243);
+            transform: scale(1.2);
+            text-shadow: 0in;
+        }
+
+        #title {
+            text-transform: uppercase;
+            background-image: linear-gradient(-225deg,
+                    #32af26 0%,
+                    #44dff3 29%,
+                    #ff1361 67%,
+                    #fff800 100%);
+            background-size: auto auto;
+            background-clip: border-box;
+            background-size: 200% auto;
+            color: #fff;
+            background-clip: text;
+
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 2s linear infinite;
+            display: inline-block;
+            font-size: 50px;
+        }
+
+        @keyframes textclip {
+            to {
+                background-position: 200% center;
+            }
+        }
+    </style>
+</head>
+
+<!-- <form>
+        <div class="container">
+            <label style="color: aliceblue;"><b>KNOW MORE ABOUT YOUR FACULTY HERE ↳ </b></label>
+            <input id="uid" type="text" placeholder="🔍Search" name="uanme">
+            
+            
+            
+        </div>
+        
+    </form> -->
+
+<body>
+
+    <div id="div1">
+        <b><span>
+                <img src="https://www.iictmsl.com/image/IIC_night.png" alt="iictmsl" height="60px">
+                
+               <center> <h1 id="title" style="color: aliceblue; text-align: center;"><u>OUR FACULTY</u></h1></center>
+            </span></b>
+    </div><br> <br>
+
+
+    <nav class="navbar">
+        <ul class="me" id="menu">
+            <li style="text-indent: 1em;"><a href="index.html">Home</a></li>
+            <li style="text-indent: 2em;"><a href="about.html">About</a></li>
+            <li style="text-indent: 2em;"><a href="ourteam.html">Our Team</a></li>
+            <li style="text-indent: 2em;"><a href="activities.html">Activities</a></li>
+            <li style="text-indent: 2em;"><a href="faculty.html">Faculty</a></li>
+            <li style="text-indent: 2em;"><a href="contact us.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="xyz">
+        <div class="row">
+            <div class="column">
+                <img src="meghdut.jpeg" width="200px">
+            </div>
+            <div class="text">
+                <h3 style="color: aliceblue;">Meghdut Roy Chowdhury
+                    Director of Global Operations, Techno India Group</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img src="paulie.jpeg" width="200">
+            </div>
+            <div class="text">
+                <h3 style="color: aliceblue;"> Laravoire
+                    Sustainability Director, Techno India Group
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="avijit.jpeg" width="200">
+            </div>
+            <div class="text">
+                <h3 style="color: aliceblue;"> Dr.Avijit Kar
+                    Principal & Director, TMSL
+                </h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img src="soumitra.jpeg" width="200">
+            </div>
+            <div class="text">
+                <h3 style="color: aliceblue;"> Soumitra Sasmal
+                    Registrar, TMSL</h3>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="column">
+                <img src="laksh.jpeg" width="200">
+            </div>
+            <div class="text">
+                <h3 style="color: aliceblue;">Dr.Lakshmishri Roy
+                    President, IIC TMSL</h3>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="column">
+                <img src="poulami.jpeg" width="200">
+            </div>
+            <h3 style="color: aliceblue;">
+                Poulami Dutta
+                Convenor, IIC TMSL
+            </h3>
+        </div>
+
+
+        <div class="row">
+            <div class="column">
+
+                <img src="jayeeta.jpeg" width="200">
+            </div>
+            <h3 style="color: aliceblue;">
+                Jayeeta Munshi
+                Co-Convenor, IIC TMSL
+            </h3>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="tapasi.jpeg" width="200">
+            </div>
+            <h3 style="color: aliceblue;">
+                Dr.Tapasi Bhattacharjee
+                Coordinator, ARIIA
+            </h3>
+        </div>
+
+
+        <div class="row">
+            <div class="column">
+                <img src="subhajit.jpeg" width="200">
+            </div>
+            <div class="text">
+                <h3 style="color: aliceblue;">
+                    Subhajit Bhowmick
+                    Assistant Professor at EIE Dept, TMSL
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div>
+        <footer class="footer">
+            <p style="margin:0; text-align: center; color:#000; font-size: 40px;">
+                Contact Us -
+                <a target="_blank" href="https://www.facebook.com/iictmsl/"><img
+                        src="https://1.bp.blogspot.com/-S8HTBQqmfcs/XN0ACIRD9PI/AAAAAAAAAlo/FLhccuLdMfIFLhocRjWqsr9cVGdTN_8sgCPcBGAYYCw/s1600/f_logo_RGB-Blue_1024.png"
+                        width="30px" height="30px"><i style="margin: 0 5px;color: white"
+                        class="footerIcon fab fa-facebook-square"></i></a>
+                <a target="_blank" href="https://twitter.com/iictmsl"><img
+                        src="https://imagepng.org/wp-content/uploads/2018/08/twitter-icone-3.png" width="30px"
+                        height="30px"><i style="margin: 0 5px;color: white" class="footerIcon fab fa-twitter"></i></a>
+                <a target="_blank" href="https://www.instagram.com/iictmsl/"><img
+                        src="https://restaurantedelariva.com/wp-content/uploads/2019/01/insta_icon.png" width="30px"
+                        height="30px"><i style="margin: 0 5px;color: white" class="footerIcon fab fa-instagram"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/company/iictmsl/"><img
+                        src="https://th.bing.com/th/id/OIP.eF0pkJSXODlhDMKNJBhEuAHaHa?pid=ImgDet&rs=1" width="30px"
+                        height="30px"><i style="margin: 0 5px;color: white"
+                        class="footerIcon fab fa-linkedin-in"></i></a>
+            </p>
+            <p style="text-align: center; color: black;">© 2023 IIC TMSL. Made by WebSmiths
+            </p>
+        </footer>
+    </div>
+
+
+
+    </div>
+</body>
+
+</html>

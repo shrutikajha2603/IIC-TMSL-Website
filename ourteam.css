@@ -1,0 +1,204 @@
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ae1978;
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+
+.para {
+    display:contents;
+    place-items: center;
+    /* padding-top: 180px; */
+    
+    
+
+}
+
+.abc{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    padding-left:60px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-align: justify;
+
+    padding-top: 180px;
+
+
+    animation: typing 2.5s steps(50, end) forwards, blinking 2s infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width:100%
+    }
+}
+
+@keyframes blinking {
+    0% {
+        border-color: transparent
+    }
+
+    100% {
+        border-color: black
+    }
+
+    100% {
+        border-color: transparent
+    }
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.zyx {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    /* height: 33.33%; */
+    border-radius: 10px;
+    border-style: none;
+    
+
+}
+
+.xyz::after {
+    content: "";
+    clear: both;
+    display: table;
+    border-radius: 10px;
+}
+
+body {
+    background-image: url("https://th.bing.com/th/id/R.f5217ec4638aab4e8cb4680e5c940097?rik=OLOvhHa7wos82Q&riu=http%3a%2f%2fcsshint.com%2fwp-content%2fuploads%2f2020%2f01%2fCSS-Animated-Backgrounds.gif&ehk=3vlQwshXrF8kdyTvUoZeqbfzZ3wqGNA54NAu6f9S1OI%3d&risl=&pid=ImgRaw&r=0");
+
+}
+
+#heading {
+    /* animation properties */
+    animation-name: my-animation;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    /* other properties */
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+@keyframes my-animation {
+    from {
+        background-color: #f88365;
+        width: 300px;
+        top: 10px;
+    }
+
+    to {
+        background-color: #6b9bcb;
+        width: 150px;
+        top: 100px;
+
+    }
+}
+
+.ghj{
+    margin-left: 220px;
+}
+
+
+.footer {
+    position: relative;
+    width: 100%;
+    background: hsl(192, 100%, 44.3%);
+    min-height: 100px;
+    padding: 20px 20px;
+    flex-direction: column;
+    margin-top: 4rem;
+    background-repeat: no-repeat;
+    
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.863);
+    border-radius: 30px;
+
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    /* on floating it overflows from parent hence background color not visible hence overflow used above*/
+    list-style: none;
+    margin: 13px 20px;
+
+}
+
+.navbar li a {
+    /* padding: 3px 3px; */
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a:hover {
+    color: rgb(107, 104, 104);
+}
+
+.search {
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+
+.navbar input {
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129 px;
+}
+
+ul#menu {
+    /* margin-top: 0;
+    float: right; */
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    /* left: 200px; */
+    background-color: rgb(37, 37, 37);
+    border-radius: 30px;
+    /* color: black; */
+    margin-top: 10px;
+
+}
+
+.me li:hover {
+    color: rgb(13, 159, 243);
+    transform: scale(1.2);
+    text-shadow: 0in;
+}
+
+#xyz{
+    padding-top: 2rem;
+}
+
+#heading{
+    margin-top: 4rem;
+}

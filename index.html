@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIC TMSL</title>
+    <link rel="stylesheet" href="preloader.css">
+    
+
+    
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .ppp {
+            position: relative;
+            /* line-height: 1px; */
+            width: 100%;
+            min-height: 100px;
+            box-sizing: border-box;
+            padding: 0 50px;
+            /* margin-bottom: 5px; */
+            text-align: center;
+            /* margin-top: 500px; */
+        }
+
+        #preloader {
+            position: fixed;
+            width: 30%;
+            height: 100h;
+            background: #000 url("https://i.pinimg.com/originals/07/24/88/0724884440e8ddd0896ff557b75a222a.gif") no-repeat center center;
+            z-index: 999;
+            animation-delay: 3s;
+        }
+
+        .fade {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        body {
+            /* background: url("https://images.hdqwalls.com/download/internet-technology-hg-1920x1080.jpg"); */
+            /* height: 100vh; */
+
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            /* background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 0) 10%); */
+            background: #0e101b;
+            overflow-x: hidden;
+
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            box-sizing: border-box;
+        }
+
+        .header {
+            z-index: 9999;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 10%;
+            background: rgba(214, 28, 56, 0.912);
+        }
+
+        .footer {
+            position: relative;
+            width: 100%;
+            background: hsl(192, 100%, 44.3%);
+            min-height: 100px;
+            padding: 20px 20px;
+            flex-direction: column;
+            margin-top: 4rem;
+            background-repeat: no-repeat;
+
+        }
+
+        /*nav li {
+            display: inline-block;
+            list-style: none;
+            padding: 0px 20px;
+        }
+
+        a {
+            font-size: 30px;
+            font-weight: 500;
+            color: rgba(242, 244, 245, 0.926);
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        nav li a:hover {
+            color: #fdf253;
+            transition: all 0.4s ease 0%;
+        }
+
+        #icon {
+            width: 30px;
+            cursor: pointer;
+
+        } */
+        .navbar {
+            background-color: rgba(37,37,37);
+            border-radius: 30px;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            /* on floating it overflows from parent hence background color not visible hence overflow used above*/
+            list-style: none;
+            margin: 13px 20px;
+
+        }
+
+        .navbar li a {
+            /* padding: 3px 3px; */
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar li a:hover {
+            color: rgb(107, 104, 104);
+        }
+
+        .search {
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+
+        .navbar input {
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129 px;
+        }
+
+        ul#menu {
+            /* margin-top: 0;
+            float: right; */
+            position: absolute;
+            top: 0px;
+            right: 10px;
+            /* left: 200px; */
+            background-color: rgb(15, 15, 15);
+            border-radius: 30px;
+            /* color: black; */
+            margin-top: 10px;
+
+        }
+
+        .me li:hover {
+            color: rgb(13, 159, 243);
+            transform: scale(1.2);
+            text-shadow: 0in;
+        }
+    </style>
+
+</head>
+
+<body >
+    <script  src="script.js"></script>
+    <div id="preloader">
+    </div>
+    <!-- <header>
+        <nav>
+            <ul>
+                <li><img src="https://www.iictmsl.com/image/IIC2.png" alt="iictmsl" width="400px" height="100px"></li>
+                <li style="text-indent: 15em;"><a href="index1.html">Home</a></li>
+                <li style="text-indent: 2em;"><a href="about.html">About</a></li>
+                <li style="text-indent: 2em;"><a href="ourteam.html">Our Team</a></li>
+                <li style="text-indent: 2em;"><a href="contact us.html">Contact</a></li>
+                <li><button onclick="myFunction()"><img
+                            src="https://cdn4.iconfinder.com/data/icons/music-ui-solid-24px/24/moon_dark_mode_night-2-512.png"
+                            id="icon"></button></li>
+            </ul>
+
+
+            <nav>
+                </header>
+                <header> -->
+
+    <div style="text-align: justify;">
+        <img src="https://www.iictmsl.com/image/IIC_night.png" alt="iictmsl" height="60px">
+    </div>
+    <nav class="navbar">
+        <ul class="me" id="menu">
+            <li style="text-indent: 1em;"><a href="index.html">Home</a></li>
+            <li style="text-indent: 2em;"><a href="about.html">About</a></li>
+            <li style="text-indent: 2em;"><a href="ourteam.html">Our Team</a></li>
+            <li style="text-indent: 2em;"><a href="activities.html">Activities</a></li>
+            <li style="text-indent: 2em;"><a href="faculty.html">Faculty</a></li>
+            <li style="text-indent: 2em;"><a href="contact us.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div>
+        <h2>
+            <span id="typed">
+
+                <p
+                    style="text-align:center; line-height: 5em;font-size: 50px; color:rgb(255, 255, 255); padding-top: 50px;">
+                    WELCOME TO THE</p>
+                <p style="text-align:center; font-size: 40px; color:rgb(255, 255, 255); padding-bottom: 150px;">
+                    OFFICIAL WEBSITE OF IIC TMSL</p>
+            </span>
+            </h1>
+    </div>
+    </header>
+
+    <div>
+        <!-- 
+        <footer style="background-image: url(https://th.bing.com/th/id/OIP.pH5LnH0oDjVm49DTuJGTwQAAAA?pid=ImgDet&w=360&h=360&rs=1); background-repeat: no-repeat; background-size: cover; background-position: center;"> -->
+        <section class="ppp">
+            <img src="https://www.iictmsl.com/image/iiccounternight.png" width="90%" ;>
+        </section>
+        </footer>
+    </div>
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function () {
+            loader.style.display = "none";
+        })
+    </script>
+    <div>
+        <footer class="footer">
+            <p style="margin:0; text-align: center; color:#000; font-size: 40px;">
+                Contact Us -
+                <a target="_blank" href="https://www.facebook.com/iictmsl/"><img
+                        src="https://1.bp.blogspot.com/-S8HTBQqmfcs/XN0ACIRD9PI/AAAAAAAAAlo/FLhccuLdMfIFLhocRjWqsr9cVGdTN_8sgCPcBGAYYCw/s1600/f_logo_RGB-Blue_1024.png"
+                        width="30px" height="30px"><i style="margin: 0 5px;color: white"
+                        class="footerIcon fab fa-facebook-square"></i></a>
+                <a target="_blank" href="https://twitter.com/iictmsl"><img
+                        src="https://imagepng.org/wp-content/uploads/2018/08/twitter-icone-3.png" width="30px"
+                        height="30px"><i style="margin: 0 5px;color: white" class="footerIcon fab fa-twitter"></i></a>
+                <a target="_blank" href="https://www.instagram.com/iictmsl/"><img
+                        src="https://restaurantedelariva.com/wp-content/uploads/2019/01/insta_icon.png" width="30px"
+                        height="30px"><i style="margin: 0 5px;color: white" class="footerIcon fab fa-instagram"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/company/iictmsl/"><img
+                        src="https://th.bing.com/th/id/OIP.eF0pkJSXODlhDMKNJBhEuAHaHa?pid=ImgDet&rs=1" width="30px"
+                        height="30px"><i style="margin: 0 5px;color: white"
+                        class="footerIcon fab fa-linkedin-in"></i></a>
+            </p>
+            <p style="text-align: center; color: black;">© 2023 IIC TMSL. Made by WebSmiths
+            </p>
+        </footer>
+    </div>
+
+
+
+        <div class="mm">
+            <div class="loader"></div>
+        </div>
+        <script src="jquery.js"></script>
+    <script src="preloader.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+
+
+.dots {
+  width: 0.5vw;
+
+  height: 0.5vw;
+
+  border-radius: 50%;
+
+  background: var(--color);
+
+  box-shadow: 0 0 10px 5px var(--color);
+
+  position: absolute;
+
+  top: 105%;
+
+  transform: translate(-50%, -50%);
+
+  animation-name: growAscend;
+
+  animation-iteration-count: infinite;
+
+  animation-direction: reverse;
+
+  animation-timing-function: ease-out;
+}
+
+@keyframes growAscend {
+  100% {
+    top: -5%;
+
+    width: 1.5vw;
+
+    height: 1.5vw;
+  }
+}

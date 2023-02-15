@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activities</title>
+  <link rel="stylesheet" href="css/activities.css">
+  <style>
+    #title {
+      color: azure;
+    }
+
+    body {
+      background-image: url('contactus.jpg');
+      background-repeat: no-repeat;
+      background-blend-mode: soft-light;
+      background-position: center;
+      background-size: cover;
+      overflow-x: hidden;
+      height: 100%;
+    }
+
+    .text {
+      text-align: left;
+      text-decoration: double;
+      font-size: x-large;
+      color: rgb(240, 235, 235);
+    }
+
+    #div1 {
+      text-align: center;
+      font-size: xx-large;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      /* justify-content: center; */
+      text-align: justify;
+      padding: 15px;
+      padding-right: 30px;
+
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    .image {
+      flex-basis: 40%;
+      align-items: first baseline;
+
+    }
+
+    .text {
+      font-size: 20px;
+      padding-left: 20px;
+      text-align: justify;
+    }
+
+    .footer {
+      position: relative;
+      width: 100%;
+      background: hsl(192, 100%, 44.3%);
+      min-height: 100px;
+      padding: 20px 20px;
+      flex-direction: column;
+      margin-top: 4rem;
+      background-repeat: no-repeat;
+
+    }
+
+
+    #title {
+      text-transform: uppercase;
+      background-image: linear-gradient(-225deg,
+          #32af26 0%,
+          #44dff3 29%,
+          #ff1361 67%,
+          #fff800 100%);
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      color: #fff;
+      background-clip: text;
+
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 2s linear infinite;
+      display: inline-block;
+      font-size: 50px;
+    }
+
+    @keyframes textclip {
+      to {
+        background-position: 200% center;
+      }
+    }
+
+    .navbar {
+            background-color: rgba(0, 0, 0, 0.863);
+            border-radius: 30px;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            /* on floating it overflows from parent hence background color not visible hence overflow used above*/
+            list-style: none;
+            margin: 13px 20px;
+
+        }
+
+        .navbar li a {
+            /* padding: 3px 3px; */
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar li a:hover {
+            color: rgb(107, 104, 104);
+        }
+
+        .search {
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+
+        .navbar input {
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129 px;
+        }
+
+        ul#menu {
+            /* margin-top: 0;
+            float: right; */
+            position: absolute;
+            top: 0px;
+            right: 10px;
+            /* left: 200px; */
+            background-color: rgb(15, 15, 15);
+            border-radius: 30px;
+            /* color: black; */
+            margin-top: 10px;
+
+        }
+
+        .me li:hover {
+            color: rgb(13, 159, 243);
+            transform: scale(1.2);
+            text-shadow: 0in;
+        }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div style="text-align: justify;">
+      <img src="iiclogo.png" alt="iictmsl" width="" height="60px">
+    </div>
+    <nav class="navbar">
+      <ul class="me" id="menu">
+        <li style="text-indent: 1em;"><a href="index.html">Home</a></li>
+        <li style="text-indent: 2em;"><a href="about.html">About</a></li>
+        <li style="text-indent: 2em;"><a href="ourteam.html">Our Team</a></li>
+        <li style="text-indent: 2em;"><a href="activities.html">Activities</a></li>
+        <li style="text-indent: 2em;"><a href="faculty.html">Faculty</a></li>
+        <li style="text-indent: 2em;"><a href="contact us.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="div1">
+      <b><span id="title">ACTIVITIES </span></b>
+    </div>
+  </header>
+  <br>
+  <div class="container">
+    <div>
+      <img src="rise.jpeg" width="250px">
+    </div>
+    <div class="text">
+      RISE
+      (Launched on: 30th October, 2019) RISE is another initiative of IIC TMSL where we provide free courses to enhance
+      the skill-set on latest technology trends like AI/ML, Data Sc, Robotics etc. We are also planning to do short
+      length Webinars with Entrepreneurs and Industry Experts to upgrade the knowledge of TMSL students.
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div>
+      <img src="innopedia.jpeg" width="210px">
+    </div>
+    <div class="text">
+      (Launched on 13th March, 2020) Innopedia, an initiative by IIC TMSL, aims at making you aware of the latest
+      advancements in terms of innovations around you. The innovaters themselves would explain the attributes of their
+      products or concepts through our YouTube channel related to innovation.
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div>
+      <img src="bondhu.jpeg" width="400px">
+    </div>
+    <div class="text">
+      BONDHU
+      (Launched on: 22nd April, 2020) BONDHU is an online platform ideated and developed by the team of innovators at
+      Institution’s Innovation Council, Techno Main Salt Lake(Official Entrepreneurship and Innovation Cell recognised
+      by MHRD, GOI), which aims to connect the volunteers with the elders with the help of technology that they can
+      visit from anywhere. In the hard times, example being the current lockdown due to the COVID-19 pandemic - young
+      people come forward to help the elders by delivering the essentials to them.
+    </div>
+  </div>
+  <div class="container">
+    <div>
+      <img src="intern.jpeg" width="100px">
+    </div>
+    <div class="text">
+      Internship Portal:
+      IIC TMSL launched an internship portal in the month of October to help students for getting internships according
+      to their skillset.
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div>
+      <img src="iic blog.jpeg" width="200px" height="60px">
+    </div>
+    <div class="text">
+      Blog
+      (January 2020 Onwards) IIC TMSL has launched IIC blog to update the knowledge of the students of TMSL regarding
+      business, startup and technology. It is a great opportunity for content creators to showcase their talent by
+      writing blogs on above mentioned topics.
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div>
+      <img src="envisage.jpeg" width="370px">
+    </div>
+    <div class="text">
+      ENVISAGE
+      (24th-26th April, 2020) ENVISAGE is born out of the dreams and aspirations of the youth who have the zest and the
+      zeal to take their future in their own hands. Supporting the growing startup culture in the country, we are
+      promised to inculcate and identify the best ideas and b-plans. Envisage, the official E-Summit of TMSL, is the
+      platform for budding entrepreneurs to showcase the power of their ideas and to be appreciated and mentored by the
+      best in the fields.
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div>
+      <img src="startup.jpeg" width="370px">
+    </div>
+    <div class="text">
+      Start-up Services
+      (Launched on: 25th April, 2020) IIC TMSL launched its new initiative where students and people from outside the
+      college can get their idea mentored under the club. They get technical, marketing or any other assistance by the
+      club for converting their idea into a viable product or service. A ‘ Mitra ‘ is appointed to the start-ups
+      selected after several rounds of meetings. The ‘ Mitra ‘ looks after the needs of the start-up and also act as a
+      mentor to them.
+    </div>
+  </div>
+  <br>
+  <div>
+    <footer class="footer">
+      <p style="margin:0; text-align: center; color:#000; font-size: 40px;">
+        Contact Us -
+        <a target="_blank" href="https://www.facebook.com/iictmsl/"><img
+            src="https://1.bp.blogspot.com/-S8HTBQqmfcs/XN0ACIRD9PI/AAAAAAAAAlo/FLhccuLdMfIFLhocRjWqsr9cVGdTN_8sgCPcBGAYYCw/s1600/f_logo_RGB-Blue_1024.png"
+            width="30px" height="30px"><i style="margin: 0 5px;color: white"
+            class="footerIcon fab fa-facebook-square"></i></a>
+        <a target="_blank" href="https://twitter.com/iictmsl"><img
+            src="https://imagepng.org/wp-content/uploads/2018/08/twitter-icone-3.png" width="30px" height="30px"><i
+            style="margin: 0 5px;color: white" class="footerIcon fab fa-twitter"></i></a>
+        <a target="_blank" href="https://www.instagram.com/iictmsl/"><img
+            src="https://restaurantedelariva.com/wp-content/uploads/2019/01/insta_icon.png" width="30px"
+            height="30px"><i style="margin: 0 5px;color: white" class="footerIcon fab fa-instagram"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/company/iictmsl/"><img
+            src="https://th.bing.com/th/id/OIP.eF0pkJSXODlhDMKNJBhEuAHaHa?pid=ImgDet&rs=1" width="30px" height="30px"><i
+            style="margin: 0 5px;color: white" class="footerIcon fab fa-linkedin-in"></i></a>
+      </p>
+      <p style="text-align: center; color: black;">© 2023 IIC TMSL. Made by WebSmiths
+      </p>
+    </footer>
+  </div>
+</body>
+
+</html>

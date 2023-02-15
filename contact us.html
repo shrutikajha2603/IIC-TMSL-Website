@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .mid {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        h2 {
+            color: white;
+        }
+
+        .box {
+            border: 2px solid black;
+            background-color: rgb(198, 241, 232);
+            margin: 4px 0px;
+            padding: 23px;
+            /* display:inline; */
+            display: inline-block;
+            width: 33%;
+            box-sizing: content-box;
+            text-align: center;
+        }
+
+        .container {
+            margin: auto;
+            width: 1200px;
+            /* background-color: #aea7ee;
+            border: 3px solid rgb(64, 6, 119); */
+            padding: 20px;
+            /* padding-left: 40px; */
+            /* can also use padding top bottom right etc  */
+            /* padding: 23px 56px 6px 170px;refers top right bottom left respectively */
+            /* padding:34px 19px;padding :y(top/bottom) x(left/right) */
+            margin: auto;
+            margin-left: auto;
+            /* margin also same thing */
+            border-radius: 23px;
+            width: 400px;
+            box-sizing: border-box;
+            /* to keep width constant orrespective of change in padding  */
+            vertical-align: middle;
+        }
+
+        /* #form {
+            img: right;
+        } */
+        #submit{
+            text-decoration: none;
+            color: white;
+            font-size: 30px;
+        }
+        
+        #submit:hover{
+            color: #f3a007;
+        }
+
+        div {
+            color: aliceblue;
+        }
+
+        label {
+            border: 2px;
+            margin: 5px;
+        }
+
+        .side {
+            margin: auto;
+        }
+
+        body {
+            background-repeat: no-repeat;
+
+            background-size: cover;
+        }
+
+        #title1 {
+            text-transform: uppercase;
+            background-image: linear-gradient(-225deg,
+                    #32af26 0%,
+                    #44dff3 29%,
+                    #ff1361 67%,
+                    #fff800 100%);
+            background-size: auto auto;
+            background-clip: border-box;
+            background-size: 200% auto;
+            color: #fff;
+            background-clip: text;
+            text-fill-color: transparent;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 2s linear infinite;
+            display: inline-block;
+            font-size: 40px;
+        }
+
+        @keyframes textclip {
+            to {
+                background-position: 200% center;
+            }
+        }
+
+        #form {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: justify;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .side {
+            flex-basis: 40%;
+            align-items: first baseline;
+
+        }
+
+        .text2 {
+            font-size: 20px;
+            padding-left: 20px;
+            text-align: justify;
+            /* align-content: center; */
+        }
+
+        .cnt {
+            padding-left: 400px;
+        }
+
+        .footer {
+            position: relative;
+            width: 100%;
+            background: hsl(192, 100%, 44.3%);
+            min-height: 100px;
+            padding: 20px 20px;
+            flex-direction: column;
+            margin-top: 4rem;
+            background-repeat: no-repeat;
+        }
+
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.863);
+            border-radius: 30px;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            /* on floating it overflows from parent hence background color not visible hence overflow used above*/
+            list-style: none;
+            margin: 13px 20px;
+
+        }
+
+        .navbar li a {
+            /* padding: 3px 3px; */
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar li a:hover {
+            color: rgb(107, 104, 104);
+        }
+
+        .search {
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+
+        .navbar input {
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129 px;
+        }
+
+        ul#menu {
+            /* margin-top: 0;
+            float: right; */
+            position: absolute;
+            top: 0px;
+            right: 10px;
+            /* left: 200px; */
+            background-color: rgb(15, 15, 15);
+            border-radius: 30px;
+            /* color: black; */
+            margin-top: 10px;
+
+        }
+
+        .me li:hover {
+            color: rgb(13, 159, 243);
+            transform: scale(1.2);
+            text-shadow: 0in;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div style="text-align: justify;">
+            <img src="https://www.iictmsl.com/image/IIC_night.png" alt="iictmsl" width="" height="60px">
+        </div>
+        <nav class="navbar">
+            <ul class="me" id="menu">
+                <li style="text-indent: 1em;"><a href="index.html">Home</a></li>
+                <li style="text-indent: 2em;"><a href="about.html">About</a></li>
+                <li style="text-indent: 2em;"><a href="ourteam.html">Our Team</a></li>
+                <li style="text-indent: 2em;"><a href="activities.html">Activities</a></li>
+                <li style="text-indent: 2em;"><a href="faculty.html">Faculty</a></li>
+                <li style="text-indent: 2em;"><a href="contact us.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- <body background="giphy.gif"> -->
+
+    <body background="contactus.jpg">
+        <div class="mid">
+            <h1 id="title1">Thanks for visiting our website</h1>
+        </div>
+        <center><img src="thanks.jpeg" alt="thank you"></center>
+        <div class="mid">
+            <h3>Connect with us through our social media handles</h3>
+        </div>
+        <div class="container">
+            <div class="box">
+                <a href="https://www.linkedin.com/company/iictmsl/">LinkedIn</a><br>
+            </div>
+            <div class="box">
+                <a href="https://www.instagram.com/iictmsl/">Instagram</a><br>
+            </div>
+            <div class="box">
+                <a href="https://www.facebook.com/iictmsl/">Facebook</a><br>
+            </div>
+            <div class="box">
+                <a href="https://twitter.com/iictmsl">Twitter</a><br>
+            </div>
+        </div>
+        <div class="mid">
+            <h2>Contact Information</h2>
+            <p>TECHNO INDIA : EM-4/1, Sector-V,
+                Salt Lake, Kolkata-700091,West Bengal</p>
+            <p>Contact No: +91 85150 05676</p>
+            <p>Email id:iic.tmsl@gmail.com</p>
+        </div>
+
+
+        <h2 style="text-align: center;">Have any queries or suggestions?Drop it down</h2>
+        <div id="form">
+            <form action="backend.php">
+                <div class="cnt">
+                    <img src="phone.jpeg" alt="123" width="50%">
+                </div>
+                <div style="text-align: center;" class="text2">
+                    <label for="name">Name</label>
+                    <br> <input type="text" name="myName" id="name">
+                    <br><br>
+                    <!-- only to enhance effect -->
+                    <label for="phno">Phone no</label>
+
+                    <br><input type="text" name="myPh" id="phno">
+
+                    <br><br>
+
+                    <label for="mail">Email id</label>
+
+                    <br><input type="email" name="myEmail" id="mail">
+
+                    <br><br>
+                    <label for="write">Comment</label>
+
+                    <br><textarea name="myText" cols="40" rows="10"></textarea>
+
+                    <br>
+
+                    <br>
+                    <a href="index.html" id="submit">Submit Now</a>
+                </div>
+            </form>
+            <!-- <img src="WhatsApp Image 2023-02-14 at 19.15.42.jpg" alt="123" class="side" width="50px" height="250px"> -->
+        </div>
+        <!-- <center><img src="OIP (3).jpeg" alt="123"></center> -->
+
+        <div>
+            <footer class="footer">
+                <p style="margin:0; text-align: center; color:#000; font-size: 40px;">
+                    Contact Us -
+                    <a target="_blank" href="https://www.facebook.com/iictmsl/"><img
+                            src="https://1.bp.blogspot.com/-S8HTBQqmfcs/XN0ACIRD9PI/AAAAAAAAAlo/FLhccuLdMfIFLhocRjWqsr9cVGdTN_8sgCPcBGAYYCw/s1600/f_logo_RGB-Blue_1024.png"
+                            width="30px" height="30px"><i style="margin: 0 5px;color: white"
+                            class="footerIcon fab fa-facebook-square"></i></a>
+                    <a target="_blank" href="https://twitter.com/iictmsl"><img
+                            src="https://imagepng.org/wp-content/uploads/2018/08/twitter-icone-3.png" width="30px"
+                            height="30px"><i style="margin: 0 5px;color: white"
+                            class="footerIcon fab fa-twitter"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/iictmsl/"><img
+                            src="https://restaurantedelariva.com/wp-content/uploads/2019/01/insta_icon.png" width="30px"
+                            height="30px"><i style="margin: 0 5px;color: white"
+                            class="footerIcon fab fa-instagram"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/company/iictmsl/"><img
+                            src="https://th.bing.com/th/id/OIP.eF0pkJSXODlhDMKNJBhEuAHaHa?pid=ImgDet&rs=1" width="30px"
+                            height="30px"><i style="margin: 0 5px;color: white"
+                            class="footerIcon fab fa-linkedin-in"></i></a>
+                </p>
+                <p style="text-align: center; color: black;">© 2023 IIC TMSL. Made by WebSmiths
+                </p>
+            </footer>
+        </div>
+    </body>
+
+</html>
