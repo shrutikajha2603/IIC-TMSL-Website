@@ -1,6 +1,6 @@
 # IIC - TMSL Website
 
-Created by a team named WEBSMITH under the supervision of Shrutika Jha.
+Created by a team named WEBSMITH under the supervision of Komal Aggarwal.
 
 ## Viewing the website -
 
